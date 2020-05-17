@@ -1,6 +1,6 @@
 
 
-class DataObj(dict):
+class BasePost(dict):
     def __init__(self, userId, id, title, body):
         dict.__init__(self, userId=userId, id=id, title=title, body=body)
         self.userId = userId
